@@ -1,0 +1,8 @@
+version: '3.8'
+services:
+  web:
+    build: .
+    image: teamj_image
+    container_name: teamj_container
+    ports:
+      - 8080:80
