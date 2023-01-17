@@ -114,14 +114,42 @@ header nav ul li.current a {
   margin-bottom: 10px;
 }
 
-#campaign ul li {
-  margin-bottom: 10px;
-  list-style-type: none;
+#drink dl {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
 }
 
-#drink ul li {
-  margin-bottom: 20px;
-  list-style-type: none;
+#drink dl dt {
+  width: 7em;
+}
+
+#drink dd {
+  width: calc(100% - 7em);
+}
+
+#drink dt,
+#drink dd {
+  margin-bottom: 10px;
+}
+
+#company dl {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+}
+
+#company dl dt {
+  width: 7em;
+}
+
+#company dd {
+  width: calc(100% - 7em);
+}
+
+#company dt,
+#company dd {
+  margin-bottom: 10px;
 }
 
 /*footer*/
